@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.detailed p {
+  font-size: 24px;
+}
+.detailed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailed img {
+  margin-right: 10px;
+}
+
+.detailed p {
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+}
+.detailed h2 {
+  display: block;
+  margin-bottom: 10px;
+}
+.news p {
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+}
+.news-image {
+  background-image: url("../img/frame_bamboo_take_yoko.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 68%; 
+}
+.news {
+  padding: 10px;
+}
+
+

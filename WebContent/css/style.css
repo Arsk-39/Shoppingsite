@@ -1,0 +1,49 @@
+@charset "UTF-8";
+header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: yellow;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer{
+  width: 100%;
+  height: 40px;
+  background-color: yellow;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #FDFCAB;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin-right: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.hed-menu {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+header {
+  position: sticky;
+  top: 0;
+}
+body {
+  padding-top: 0; /* ヘッダーの高さに合わせて適切な値を設定してください */
+}
+
+
+

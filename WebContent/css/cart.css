@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td img {
+    max-width: 100px; /* 画像の最大幅を指定 */
+    max-height: 100px; /* 画像の最大高さを指定 */
+    width: auto;
+    height: auto;
+}
